@@ -1,0 +1,49 @@
+body{
+    background-color: bisque;
+    color: rgb(178, 189, 33);
+    border: 2px groove red;
+    border-color: aqua;
+    border-radius: 6px;
+    opacity: 1;
+    background-attachment: fixed;
+    background: #09e368 url("bhg.jpg") no-repeat right top;
+    /* color image repeat position */
+}
+
+.container{
+    background-color: blue;
+    border-bottom: 50px;
+    border-width: medium;
+    border-style: groove;
+}
+
+.container2{
+    background-color: blueviolet;
+    border-style: double;
+    border-width: thick;
+    color: cadetblue;
+    margin-top: 20%;
+    margin-right: 80px;
+    margin-bottom: 110px;
+    margin-left: 150px;
+    /* margin shorthand property= top left bottom right */
+}
+
+.container3{
+    background-color: bisque;
+    border-style: groove;
+    border-width: thin;
+    color: chocolate;
+    padding-top: 2px;
+    padding-right: 20%;
+    padding-bottom: 80px;
+    padding-left: 40%;
+    height: 200px;
+    max-height: 300px;
+    width: 50%;
+    max-width: 200%;
+    outline-style: double; /* required */
+    outline-offset: 200%;
+    outline-color: crimson;
+    outline-width: 50%;
+}
